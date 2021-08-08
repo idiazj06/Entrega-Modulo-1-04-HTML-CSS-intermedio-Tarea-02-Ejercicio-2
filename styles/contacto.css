@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Merienda:wght@400;700&family=Style+Script&display=swap');
+
+body {
+    background-color: lightgrey;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(180deg, rgba(255, 47, 0, 0.802), rgba(255, 131, 131, 0.541));
+   
+}
+header {    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 30vh;
+    font-family: 'Style Script', cursive;
+    
+}
+
+.contenedor {
+    width: 80%;
+    margin: 0 auto;
+}
+.contenedor-titulo {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+}
+
+nav ul{
+    text-align: center;
+    list-style: none;
+    margin-top: 25px;;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    font-family: 'Merienda', cursive;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+
+}
+
+nav ul li a:hover{
+  font-size: 32px;
+  border-bottom: 2px solid red;
+  color: black;
+
+}
+
+h1{
+    display:  inline-block;    
+    text-align: center;
+}
+h1:hover{
+    display:  inline-block;    
+    text-align: center;
+    font-size: 40px;
+    color: #ffe100;
+    text-shadow: 0px -5px 20px black;
+}
+
+#form{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0, 0.296);
+    padding: 20px 0;
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.542);
+    font-family: 'Merienda', cursive;
+    
+}
+
+
+input{
+    width:90%;
+    margin: 5px auto;
+    text-align: center;
+    padding:5px;
+    font-family: 'Merienda', cursive;
+    
+}
+
+textarea{
+    width:90%;
+    margin: 5px auto;
+    font-family: 'Merienda', cursive;
+    text-align: center;
+   
+}
+
+button{
+    width: 30%;
+    margin: 5px auto;
+    padding: 10px;
+    background-color: green;
+    border-radius: 10px;
+    font-family: 'Merienda', cursive;
+    background-color: #ffe100;
+    font-size: 16px;
+   
+}
+
+button:hover{
+    background-image: linear-gradient(180deg, rgba(64, 255, 0, 0.802), rgba(131, 255, 131, 0.541));
+    box-shadow: 0 1px 10px black;
+    margin-top: 10px;
+    font-size: 22px;
+    
+}
